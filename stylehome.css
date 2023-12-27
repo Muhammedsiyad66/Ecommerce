@@ -1,0 +1,329 @@
+#logo {
+  width: 200px !important;
+}
+
+.cart-div {
+  display: flex;
+  gap: 20px;
+}
+
+.cart-div i {
+  font-size: 20px;
+  color: #053863;
+}
+
+.navbar-collapse {
+  gap: 40px;
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
+
+
+#searchbox {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#search {
+  border: none;
+  border-radius: 10px;
+
+}
+
+
+
+.banner {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.card-cat {
+  text-align: center;
+}
+
+.card-cat h5 {
+  margin-top: 20px;
+}
+
+.product-card {
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  display: flex !important;
+}
+
+.des {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.buynow {
+  background-color: #000;
+  color: aliceblue;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  height: 50px;
+  width: 100px;
+}
+
+.des button :hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#buynowA {
+  color: #fff4f4;
+  background-color: black;
+}
+
+
+
+.card {
+  width: 300px;
+  border: none;
+  text-align: center;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 16px;
+}
+
+.card img {
+
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+
+}
+
+.product-description {
+  height: 40px;
+}
+
+.shopbycat a {
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: #053863;
+}
+
+/* CSS for Card Animation with Smooth Scaling */
+/* CSS for Card Animation with Keyframes */
+
+@keyframes scaleIn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.05);
+  }
+}
+
+.card-cat {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-cat:hover {
+  animation: scaleIn 0.3s ease-in-out forwards;
+}
+
+
+
+.back {
+
+  background-color: #fff4f4;
+  width: 100%;
+
+}
+
+.image-sec {
+  padding: 20px 20px 20px 20px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.main-img img {
+  border-radius: 20px;
+
+}
+
+.price {
+
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#logo {
+  width: 200px !important;
+}
+
+.offer-price {
+  font-weight: 700;
+}
+
+.actual-price {
+  text-decoration: line-through;
+
+}
+
+.offer-percentage {
+  color: brown;
+}
+
+.offer-50 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.zoom-in {
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.aos-init {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.aos-animate {
+  opacity: 1;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.product-card .card {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card .card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card .card:hover img {
+  transform: scale(1.1);
+}
+
+.product-card .card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card .card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.product-card .overlay a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #053863;
+}
+
+.buynow-main {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #000;
+  border-radius: 10px;
+}
+.buynow-main :hover{
+background-color: #fff;
+color: #000;
+}
+
+
+.product-card .card-container:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.product-card .card-container:hover .overlay {
+  opacity: 1;
+}
+
+.product-card .overlay a:hover {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+
+
+@media (max-width:580px) {
+  #logo {
+    width: 100px !important;
+  }
+
+  .slide img {
+    height: 400px;
+  }
+
+  .banner img {
+    height: 70px;
+  }
+
+  .image-sec img {
+    object-fit: cover;
+    height: 400px;
+  }
+
+
+}
+
+@media(max-width:800px) {
+  .image-sec {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .des {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+}
